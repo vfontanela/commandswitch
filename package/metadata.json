@@ -1,0 +1,21 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "vfontanela@gmail.com",
+                "Name": "Vinícius Fontanela"
+            }
+        ],
+        "Category": "Utilities",
+        "Description": "A simple KDE Plasma switch that runs one command when turned on and another command when turned off.",
+        "Icon": "command-switch",
+        "Id": "com.vinicius.command-switch",
+        "License": "GPL-3.0-or-later",
+        "Name": "Command Switch",
+        "Version": "0.3.0",
+        "Website": "https://www.viniciusfontanela.com"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "ui/main.qml"
+}

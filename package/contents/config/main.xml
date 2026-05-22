@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name=""/>
+    <group name="General">
+        <entry name="label" type="String"><default>Command Switch</default></entry>
+        <entry name="useSlider" type="Bool"><default>false</default></entry>
+        <entry name="onText" type="String"><default>ON</default></entry>
+        <entry name="offText" type="String"><default>OFF</default></entry>
+        <entry name="onCommand" type="String"><default></default></entry>
+        <entry name="offCommand" type="String"><default></default></entry>
+        <entry name="onNotificationTitle" type="String"><default>Command Switch</default></entry>
+        <entry name="onNotificationMessage" type="String"><default>Switched on</default></entry>
+        <entry name="offNotificationTitle" type="String"><default>Command Switch</default></entry>
+        <entry name="offNotificationMessage" type="String"><default>Switched off</default></entry>
+        <entry name="onIcon" type="String"><default>emblem-checked</default></entry>
+        <entry name="offIcon" type="String"><default>emblem-unchecked</default></entry>
+        <entry name="checked" type="Bool"><default>false</default></entry>
+    </group>
+</kcfg>
